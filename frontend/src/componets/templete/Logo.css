@@ -3,4 +3,10 @@ aside.logo{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 250px;
+}
+
+aside.logo img{
+    height: auto;
+    width: 100px;
 }
