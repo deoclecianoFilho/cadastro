@@ -5,13 +5,13 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 import Logo from '../componets/templete/Logo'
 import Nav from '../componets/templete/Nav'
-import Main from '../componets/templete/Main'
+import Home from '../componets/home/Home'
 import Footer from '../componets/templete/Footer'
 
 export default props =>
     <div className="app">
         <Logo/>
         <Nav/>
-        <Main icon="home" title="Inicio" subtitle="Sugundo Projeto do capituo de React"></Main>
+        <Home/>
         <Footer/>
     </div>
